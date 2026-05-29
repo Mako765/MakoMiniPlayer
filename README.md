@@ -40,10 +40,7 @@ If you find this app useful, consider supporting the developer ☕
 
 ## License
 
-Free to use. This is my first Android build :D
-<img width="2185" height="1201" alt="ss2" src="https://github.com/user-attachments/assets/74e02894-9613-496d-8c94-162c77ae931b" />
-<img width="2193" height="1223" alt="ss1" src="https://github.com/user-attachments/assets/4a04ba80-fd40-41de-9273-c6ea99742aa5" />
-
-
-<img width="2185" height="1201" alt="image" src="https://github.com/user-attachments/assets/b3c40ba7-f934-402e-81ca-c07762aae7f6" />
-<img width="1224" height="1548" alt="Screenshot_20260529_032655" src="https://github.com/user-attachments/assets/fc4ab2db-58de-437f-ac8d-d019ef426445" />
+<img width="2185" height="1201" alt="ss2" src="https://github.com/user-attachments/assets/79121e42-bd84-45c1-ac08-89c400c97705" />
+<img width="2193" height="1223" alt="ss1" src="https://github.com/user-attachments/assets/b5c8b69c-d5ea-4eb7-bcd9-57f672d0489f" />
+<img width="1224" height="1548" alt="Screenshot_20260529_032655" src="https://github.com/user-attachments/assets/c38d9302-c44d-4b31-bbd1-7882a7de44a6" />
+<img width="1237" height="2204" alt="Screenshot_20260529_032635" src="https://github.com/user-attachments/assets/21ca1b70-d9d5-4042-83c3-d1ae39d6428c" />
