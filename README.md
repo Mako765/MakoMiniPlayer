@@ -44,6 +44,6 @@ Free to use. This is my first Android build :D
 <img width="2185" height="1201" alt="ss2" src="https://github.com/user-attachments/assets/74e02894-9613-496d-8c94-162c77ae931b" />
 <img width="2193" height="1223" alt="ss1" src="https://github.com/user-attachments/assets/4a04ba80-fd40-41de-9273-c6ea99742aa5" />
 
-<img width="1237" height="2204" alt="Screenshot_20260529_032635" src="https://github.com/user-attachments/assets/0403cdf4-5d0d-4719-b5c0-bd826609d6fc" />
+
 <img width="2185" height="1201" alt="image" src="https://github.com/user-attachments/assets/b3c40ba7-f934-402e-81ca-c07762aae7f6" />
 <img width="1224" height="1548" alt="Screenshot_20260529_032655" src="https://github.com/user-attachments/assets/fc4ab2db-58de-437f-ac8d-d019ef426445" />
