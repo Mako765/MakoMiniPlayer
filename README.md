@@ -1,4 +1,3 @@
-
 # MakoMiniPlayer
 
 **Lightweight Android TV & Android Box video player with full subtitle support.**
@@ -47,3 +46,4 @@ Free to use. This is my first Android build :D
 
 <img width="1237" height="2204" alt="Screenshot_20260529_032635" src="https://github.com/user-attachments/assets/0403cdf4-5d0d-4719-b5c0-bd826609d6fc" />
 <img width="2185" height="1201" alt="image" src="https://github.com/user-attachments/assets/b3c40ba7-f934-402e-81ca-c07762aae7f6" />
+<img width="1224" height="1548" alt="Screenshot_20260529_032655" src="https://github.com/user-attachments/assets/fc4ab2db-58de-437f-ac8d-d019ef426445" />
