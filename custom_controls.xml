@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Top bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btn_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Speed: 1.0x"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:focusable="true"
+            android:background="@drawable/btn_focus_bg" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_video_info"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="ℹ️"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:focusable="true"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/btn_focus_bg" />
+
+        <Button
+            android:id="@+id/btn_subtitles"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Subtitles"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:focusable="true"
+            android:background="@drawable/btn_focus_bg" />
+
+    </LinearLayout>
+
+    <!-- Center controls -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <ImageButton
+            android:id="@+id/btn_rewind"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/btn_focus_bg"
+            android:src="@android:drawable/ic_media_rew"
+            app:tint="#FFFFFF"
+            android:contentDescription="Rewind"
+            android:focusable="true" />
+
+        <ImageButton
+            android:id="@id/exo_play_pause"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/btn_focus_bg"
+            android:src="@android:drawable/ic_media_play"
+            app:tint="#FFFFFF"
+            android:contentDescription="Play Pause"
+            android:focusable="true" />
+
+        <ImageButton
+            android:id="@+id/btn_forward"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:background="@drawable/btn_focus_bg"
+            android:src="@android:drawable/ic_media_ff"
+            app:tint="#FFFFFF"
+            android:contentDescription="Forward"
+            android:focusable="true" />
+
+    </LinearLayout>
+
+    <!-- Sub sync — desno uz rub, vertikalno -->
+    <LinearLayout
+        android:id="@+id/sub_sync_controls"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btn_sub_plus"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:text="+"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:focusable="true"
+            android:background="@drawable/btn_focus_bg"
+            android:padding="0dp" />
+
+        <TextView
+            android:id="@+id/tv_sub_offset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+0.0s"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp" />
+
+        <Button
+            android:id="@+id/btn_sub_minus"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:text="-"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:focusable="true"
+            android:background="@drawable/btn_focus_bg"
+            android:padding="0dp" />
+
+    </LinearLayout>
+
+    <!-- Bottom bar -->
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:background="#66000000">
+
+        <TextView
+            android:id="@id/exo_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:text="0:00" />
+
+        <androidx.media3.ui.DefaultTimeBar
+            android:id="@id/exo_progress"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:focusable="true"
+            app:played_color="#FF0000"
+            app:unplayed_color="#80FFFFFF"
+            app:buffered_color="#40FFFFFF"
+            app:scrubber_color="#FFFF00"
+            app:scrubber_enabled_size="16dp"
+            app:scrubber_disabled_size="12dp" />
+
+        <TextView
+            android:id="@id/exo_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:text="0:00" />
+
+        <Button
+            android:id="@+id/btn_resize"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:text="Auto"
+            android:textColor="#FFFFFF"
+            android:textSize="11sp"
+            android:focusable="true"
+            android:background="@drawable/btn_focus_bg" />
+
+    </LinearLayout>
+
+    <!-- Sakrij ExoPlayer defaultne speed gumbe -->
+    <TextView
+        android:id="@id/exo_ffwd_with_amount"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@id/exo_rew_with_amount"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
